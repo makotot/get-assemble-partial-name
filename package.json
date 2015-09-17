@@ -1,0 +1,29 @@
+{
+  "name": "get-assemble-partial-name",
+  "version": "0.0.1",
+  "description": "Get assemble partial name",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && ./node_modules/mocha/bin/_mocha ./test.js",
+    "lint": "./node_modules/eslint/bin/eslint.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makotot/get-assemble-partial-name.git"
+  },
+  "author": "makotot",
+  "license": "MIT",
+  "keywords": [
+    "assemble"
+  ],
+  "bugs": {
+    "url": "https://github.com/makotot/get-assemble-partial-name/issues"
+  },
+  "homepage": "https://github.com/makotot/get-assemble-partial-name#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.4.3",
+    "eslint-config-makotot": "0.0.1",
+    "mocha": "^2.3.2"
+  }
+}
