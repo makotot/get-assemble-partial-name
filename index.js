@@ -5,5 +5,9 @@ module.exports = function (partialPath, cb) {
 
   var partialName = partialFile.split(path.extname(partialFile))[0];
 
-  cb(null, partialName);
+  if (typeof cb === 'function') {
+    cb(null, partialName);
+  }
+
+  return partialName;
 };
