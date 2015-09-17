@@ -19,6 +19,13 @@ $ npm i --save get-assemble-partial-name
 ## Usage
 
 ```js
+var name = getPartialName('./src/partials/header.hbs');
+
+console.log(name);
+// => 'header'
+```
+or 
+```js
 getPartialName('./src/partials/header.hbs', function (err, name) {
   console.log(name);
   // => 'header'
